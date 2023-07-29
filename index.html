@@ -28,7 +28,7 @@
               <input
                 type="email"
                 class="form-control"
-                id="exampleInputEmail1"
+                id="correo"
                 aria-describedby="emailHelp"
               />
             </div>
@@ -36,14 +36,20 @@
               <label for="exampleInputPassword1" class="form-label"
                 >Password</label
               >
-              <input
-                type="password"
-                class="form-control"
-                id="exampleInputPassword1"
-              />
+              <input type="password" class="form-control" id="contrasenia" />
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button
+              type="submit"
+              id="boton-enviar"
+              class="btn btn-primary mb-3"
+            >
+              Submit
+            </button>
+
+            <div class="alert alert-danger d-none" role="alert">
+              Credenciales incorrectas
+            </div>
           </form>
         </div>
       </div>
